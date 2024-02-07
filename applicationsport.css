@@ -1,0 +1,139 @@
+.mobile {
+    background-color: #aaaaaa; /* #000000 is the hexadecimal color code for black */
+}
+
+.desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #aaaaaa;
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+}
+
+.banner {
+    background-color: #282828;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: 1px solid #555555;
+}
+
+.footer {
+    background-color: #282828;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    border-top: 1px solid #555555;
+}
+
+
+
+.footer .calculator-text {
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Roboto', 'Tahoma', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+.logo {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Roboto', 'Tahoma', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    white-space: nowrap;
+}
+
+.email-link {
+    color: #fff;
+}
+
+.applelink-text {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 13px;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Roboto', 'Tahoma', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.applelink {
+    z-index: 1; 
+    position: absolute;
+    text-align: left;
+    width: 40%; /* Adjusted width */
+    padding-left: 150px;
+    box-sizing: border-box;
+    left: 0; /* Positioned to the left */
+    opacity: 0;
+    top: 40px; /* Added this line */
+}
+
+
+.responsive-img {
+    opacity: 1;
+    transition: opacity 2s ease;
+    z-index: 1;
+    width: 99vw; /* Full viewport width */
+    height: 99vh; /* Full viewport height */
+    object-fit: cover;
+    object-position: center;
+}
+
+.CalSupLink {
+    z-index: 1; 
+    position: absolute;
+    text-align: right; /* Changed alignment */
+    width: 40%; /* Adjusted width */
+    padding-right: 150px;
+    box-sizing: border-box;
+    right: 0; /* Positioned to the right */
+    opacity: 0;
+    top: 40px; /* Added this line */
+    color: white;
+    text-decoration: none;
+}
+
+.CalSupLink-text {
+    color: white;
+    margin-left: 20px;
+    font-size: 13px;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Roboto', 'Tahoma', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.CalSupLink-text a {
+    color: white;
+    text-decoration: none;
+}
+
+.app-store-icon {
+    width: 100px; /* change as needed */
+    height: 100px; /* change as needed */
+    border-radius: 25%; /* rounded corners */
+}

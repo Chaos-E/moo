@@ -1,0 +1,83 @@
+.mobile {
+    background-color: #aaaaaa; /* #000000 is the hexadecimal color code for black */
+}
+
+.desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #aaaaaa;
+    overflow: hidden;
+}
+
+.banner {
+    background-color: #282828;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: fixed; /* this makes the banner fixed at the top */
+    width: 100%; /* ensures the banner stretches across the entire window */
+    top: 0; /* aligns the banner to the top of the page */
+    left: 0; /* aligns the banner to the left of the page */
+    z-index: 100; /* ensures the banner stays on top of other elements */
+    border-bottom: 1px solid #555555;
+}
+
+.footer {
+    background-color: #282828;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* this will align items to the end of the container */
+    position: fixed; /* this makes the banner fixed at the top */
+    width: 100%; /* ensures the banner stretches across the entire window */
+    bottom: 0; /* aligns the banner to the top of the page */
+    left: 0; /* aligns the banner to the left of the page */
+    z-index: 100; /* ensures the banner stays on top of other elements */
+    border-top: 1px solid #555555;
+    
+}
+
+.footer .privacy-text {
+    color: #eb4e3d;
+    font-size: 13px;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Roboto', 'Tahoma', sans-serif;
+    font-weight: normal; 
+    font-style: normal;
+    text-decoration: none; /* Removes underline */
+    margin-right: 20px;
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.footer .main-text {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 1.0vw;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Roboto', 'Tahoma', sans-serif;
+    font-weight: normal; 
+    font-style: normal;
+    text-decoration: none; /* Removes underline */
+    padding-right: 20px;
+    
+}
+
+.logo {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Roboto', 'Tahoma', sans-serif;
+    font-weight: normal; 
+    font-style: normal;
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.responsive-img {
+    width: 99vw; /* Full viewport width */
+    height: 99vh; /* Full viewport height */
+    object-fit: cover; /* Cover the entire area without distortion */
+    object-position: center; /* Center the image in its box */
+}
+
